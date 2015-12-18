@@ -1,31 +1,95 @@
 <!DOCTYPE html>
-<html>
-	
-	
-	
-	<head>
-		<title>Nelly Sattari</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">What's up</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Nelly Sattari!</h1>
-				<p>I am a web developer living in Australia, Sydney <a href="https://www.linkedin.com/in/nsattari">Read more about my carrer...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:nellysattari@gmail.com">email</a></li>
-        		<li><a href="https://github.com/nellysattari/nellysattari.github.io">github.com/nellysattari</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My world as a developer and more</title>
+
+    <!-- Bootstrap Core CSS -->
+
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="node_modules/sideBar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <div>
+            <img src="images/nelly.jpg">
+        </div>
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                Nelly Sattari
+            </li>
+            <li class="active">
+                <a id="about" href="#">About me</a>
+            </li>
+
+
+            <li>
+                <a id="contact" href="#">Contact me!</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="view">
+        <!-- Page Content -->
+
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+    $(document).ready(function () {
+        $("#view").load("about.html");
+    });
+
+    $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+
+    $("#about").click(function () {
+                $("#view").load("about.html");
+            }
+    );
+
+
+    $("#contact").click(function () {
+                $("#view").load("contact.html");
+            }
+    );
+
+</script>
+
+</body>
+
 </html>
