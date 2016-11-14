@@ -16,13 +16,12 @@ You can only have one personal site at your `gituser.github.io` address and you 
 The posts created by Jekyll are `Markdown` and the content can be a bit of `Liquid template language` 
 and a bit of `HTML`. They will be eventually converted to `Html` though when they get build by Jekyll.
 
-# Install Jekyll:
+# How to get Jekyll into your weblog:
 Jekyll is driven by Ruby language so you need to install some stuff on your machine.
-It is a bit tricky to install it on the `Windows` but I provide some [links] which can be handy. 
-
-Check out the [Github Docs] for more info on how to get the most out of Jekyll. 
+It is a bit tricky to install it on the `Windows` but I provide a [link] which can be handy. 
+Also check out the [Github Docs] for more info on how to get the most out of Jekyll. 
 
 [Jekyll themes]: http://jekyllthemes.org/
-[links]:  https://jekyllrb.com/docs/home/
+[link]:  https://jekyllrb.com/docs/home/
 [Github Docs]:https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
  
