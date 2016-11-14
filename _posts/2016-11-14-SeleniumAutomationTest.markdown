@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Nelly's weblog!"
-date:   2016-07-19 11:49:45 +0200
+title:  "Test Automation with Selenium!"
+date:   2016-11-14 11:49:45 +0200
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
