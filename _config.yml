@@ -1,10 +1,8 @@
-title: !Only A Developer
+title: Not Only A Developer
 email: nellysattari@gmail.com
 description:  My weblog contains my daily journies through software solutions 
 name: Nelly Sattari
 markdown: kramdown
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://nellysattari.github.io" # the base hostname & protocol for your site
-
-
 permalink: /:year/:month/:day/:title
