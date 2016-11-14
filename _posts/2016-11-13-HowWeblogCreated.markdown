@@ -1,25 +1,28 @@
 ---
 layout: post
-title:  "How I Created My Weblog!"
+title:  "How I Created My Weblog with Jekkyl!"
 date:   2016-11-13 11:49:45 +0200
 categories: Weblog Post
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Using GitHub pages is a nice solution if you are looking for a `personal weblog` for yourself.
+You will leverage `Github` as a source control, `GitHub pages` as a static stite hosting service and also `Jekyll` as a popular static site generator.
 
-Jekyll also offers powerful support for code snippets:
+Using Jekyll, helps you write your blog without being worried about too many `HTML` statements. 
+Also there are lots of [Jekyll themes] that you can download and simply use. 
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+You can only have one personal site at your `gituser.github.io` address and you can definitely assign `CNAME` to the URL to make it more customized. 
+ 
+The posts created by Jekyll are `Markdown` and the content can be a bit of `Liquid template language` 
+and a bit of `HTML`. They will be eventually converted to `Html` though when they get build by Jekyll.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+# Install Jekyll:
+Jekyll is driven by Ruby language so you need to install some stuff on your machine.
+It is a bit tricky to install it on the `Windows` but I provide some [links] which can be handy. 
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Check out the [Github Docs] for more info on how to get the most out of Jekyll. 
+
+[Jekyll themes]: http://jekyllthemes.org/
+[links]:  https://jekyllrb.com/docs/home/
+[Github Docs]:https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+ 
