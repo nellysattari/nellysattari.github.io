@@ -1,8 +1,28 @@
 ---
 layout: default
-title: Nelly Sattari
 ---
-<div class="blurb">
-	<h1>Hi there, I'm Nelly!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+
+<div class="home">
+ <div class="top card">
+    <a class="email" href="mailto:{{site.email}}">{{site.email}}</a>
+    <p class="description">{{ site.description }}</p>
+    <a href="about" class="btn">Read More</a>
+  </div>
+  <div class="posts card">
+      <div class="card-content white-text">
+      <span class="card-title">Posts</span>
+
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>            
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      </div>
+   </div>
+
+</div>
