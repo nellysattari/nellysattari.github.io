@@ -3,11 +3,12 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
-Reach me through different channels, I would be gratefull.
-[GitHub]  
-[Linkedin]
-[Twitter] 
-[Weblog]  
+I would be gratefull if you reach me through different channels:
+
+[GitHub]  </br>
+[Linkedin]  </br>
+[Twitter]  </br>
+[Weblog]   </br>
 
 
 
